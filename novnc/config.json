@@ -1,14 +1,11 @@
 {
     "name": "NoVNC",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "slug": "novnc",
     "description": "The HTML5 VNC Client",
     "url": "https://github.com/breakerz/addon-novnc",
     "startup": "application",
     "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
-    "ports": {
-        "80/tcp": null        
-      },
     "ingress": true,
     "panel_icon": "mdi:keyboard",
     "options": {
