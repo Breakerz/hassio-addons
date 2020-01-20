@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <title>NoVNC Addon</title>
+
+<style>
+.buttonvnc {
+color: #ffffff !important;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 400;
+background: #03a9f4;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+font-family: Roboto,sans-serif;
+-webkit-font-smoothing: antialiased;
+}
+
+.buttonvnc:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+</style>
+ </head>
+ <body>
+
+%%buttons%%
+ 
+ </body>
+</html>

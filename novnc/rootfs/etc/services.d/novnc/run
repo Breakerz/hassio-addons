@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Community Hass.io Add-ons: NoVNC
+# Runs NoVNC
+# ==============================================================================
+declare -a options
+
+bashio::log.info 'Starting NoVNC...'
+# Run NoVNC
+exec /root/noVNC/utils/launch.sh --vnc "--token-plugin TokenFile --token-source /root/noVNC/token.d/" --listen 8099 --web /root/noVNC/build/

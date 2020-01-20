@@ -1,0 +1,1 @@
+<div class="button_cont" align="center"><a class="buttonvnc"  onclick="location.href='./vnc.html?path=' + String(window.location.pathname).substr(1) + 'websockify%3Ftoken%3D%%token%%' ;"><i class="material-icons right">keyboard</i> %%name%%</a></div><br/> 
